@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Paragraph changed.";
+}
+
+/*
+function async myFunction2() {
+  let res = await fetch(
+    `https://api.poloniex.com/markets/btc_usdt/price`
+  );
+  let data = await res.json();
+  let bitcoin_price = data.price;
+  document.getElementById("demo").innerHTML = "bleh";
+}
+*/
+
+
+</script>
+</head>
+<body>
+
+<h2>Broken show bitcoin price example</h2>
+
+<p id="demo">A Paragraph.</p>
+
+<button type="button" onclick="myFunction()">Try it</button>
+<!--
+<button type="button" onclick="myFunction2()">show current bitcoin price</button>
+-->
+
+</body>
+</html> 
